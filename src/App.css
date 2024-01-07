@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: rgb(32, 32, 32);
+    --primary-color2: rgb(37, 37, 37);
     --black: rgb(0, 0, 0);
     --secondary-color: rgb(255, 255, 255);
     --tertiary-color: rgb(255, 115, 0);

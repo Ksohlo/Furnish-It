@@ -2,6 +2,7 @@ import './Home.css'
 import get from '../assets/get furnished.svg'
 import tag from '../assets/tag big.svg'
 import chair from '../assets/chair.png'
+import About from './About'
 
 
 
@@ -32,6 +33,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <About />
         </>
      );
 }
