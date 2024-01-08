@@ -17,6 +17,7 @@
 }
 html, body{
     scroll-behavior: smooth;
+    width: 100%;
 }
 html::-webkit-scrollbar{
     display: none;

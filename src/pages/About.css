@@ -54,7 +54,39 @@
     font-size: 1.4rem;
     font-weight: 600;
     transition: .3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 .rightelement button:hover{
     box-shadow: 0 0 9px 1px var(--secondary-color);
+}
+@media (max-width: 700px) {
+    .aboutelements{
+        flex-direction: column;
+    }
+    .aboutelements img{
+        width: 300px;
+    }
+    .rightelement{
+        width: 300px;
+        margin: 10px auto;
+    }
+    .rightelement h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .rightelement p{
+        width: 300px;
+    }
+    .rightelement button{
+        width: 150px;
+        height: 50px;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .bx-right-arrow-alt{
+        font-size: 1.6rem;
+    }
 }

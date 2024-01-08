@@ -15,7 +15,7 @@ const About = () => {
                     <div className="rightelement">
                         <h2>We provide you with the best <span className='orange'>Top-Notch Services</span> you can get  </h2>
                         <p>Our product has helped in shaping modern futuristic designs, intentionally pleasing our customers with the best services. Our product has helped in shaping modern futuristic designs, intentionally pleasing our customers with the best services</p>
-                        <button>Read More</button>
+                        <button>Read More <i class='bx bx-right-arrow-alt'></i></button>
                     </div>
                 </div>
             </div>

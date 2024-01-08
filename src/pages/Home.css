@@ -1,7 +1,7 @@
 .home-body{
     width: 100%;
     height: auto;
-    min-height: 88vh;
+    min-height: 92vh;
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
@@ -12,10 +12,10 @@
     padding-top: 50px;
 }
 #smalltag{
-    width: 90px;
+    width: 80px;
     position: absolute;
-    top: 112px;
-    left: 65px;
+    top: 108px;
+    left: 61px;
 }
 .home-body h2{
     color: var(--ash);
@@ -24,8 +24,8 @@
     margin-top: 10px;
 }
 .home-body button{
-    width: 280px;
-    height: 80px;
+    width: 220px;
+    height: 60px;
     background-color: var(--tertiary-color);
     color: var(--black);
     border: none;
@@ -33,14 +33,19 @@
     border-radius: 50px;
     margin-top: 30px;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     cursor: pointer;
     transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 33px;
 }
 .home-body button:hover{
     box-shadow: 0px 0px 8px 1px var(--secondary-color);
 }
 #bigtag{
+    width: 120px;
     position: absolute;
     top: 410px;
     right: 90px;
@@ -58,7 +63,7 @@
     align-items: center;
     padding: 10px 80px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .texts{
     display: flex;
@@ -70,34 +75,50 @@
 .texts p{
     color: var(--secondary-color);
 }
+.polygon{
+    width: 10px;
+}
 .orange{
     color: var(--tertiary-color);
 }
-
+.bx-right-arrow-alt{
+    font-size: 2rem;
+    transform: rotate(-49deg);
+}
 
 /* media query */
 
 
 @media (max-width: 700px) {
-    #smalltag{
-        width: 40px;
-        left: 20px;
-    }
+    
+    
     .home-body h2{
-        font-size: .9rem;
+        font-size: .8rem;
+        width: 260px;
     }
     .home-body button{
-        width: 200px;
+        width: 150px;
         height: 50px;
-        font-size: 1.2rem;
+        font-size: .9rem;
+        padding: 10px 17px;
     }
     .bottom-container{
-        padding: 10px 30px;
+        padding: 10px 10px;
+        
+    }
+    .bottom-container h1{
+       font-size: 1.5rem;
+    }
+    .polygon{
+        width: 7px;
+    }
+    .bottom-container p{
+        font-size: .6rem;
     }
     #bigtag{
-        width: 70px;
-        top: 280px;
-        right: 30px;
+        width: 50px;
+        top: 305px;
+        right: 40px;
     }
     #chair{
         width: 100%;
