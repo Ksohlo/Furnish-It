@@ -1,3 +1,7 @@
+:root{
+    --chair1: '../assets/chair.png';
+    --chair2: '../assets/mobile chair.png';
+}
 .home-body{
     width: 100%;
     height: auto;
@@ -49,6 +53,7 @@
     position: absolute;
     top: 410px;
     right: 90px;
+    /* z-index: -1; */
 }
 #chair{
     margin-top: 60px;
@@ -90,8 +95,12 @@
 
 
 @media (max-width: 700px) {
-    
-    
+    #chair{
+        content: url("../assets/mobile chair.png");
+    }
+    .home-body{
+        min-height: 500px;
+    }
     .home-body h2{
         font-size: .8rem;
         width: 260px;
